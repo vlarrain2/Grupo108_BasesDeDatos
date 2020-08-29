@@ -1,10 +1,9 @@
 ALTER USER grupo108 ENCRYPTED PASSWORD 'uler123';
 \COPY nombre_tabla from 'relative/path/to/file.csv' DELIMITER ',' CSV HEADER
 \quit
+\db
 \dt
-SELECT * FROM navieras
+SELECT * From Navieras
 \dt
-SELECT * FROM navieras;
-SELECT * FROM navieras;
-ls
-\quit
+SELECT * From Navieras;
+SELECT * From Navieras;

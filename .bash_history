@@ -23,3 +23,13 @@ cd Sites/
 ls
 cd ..
 psql
+git status
+git add .
+git commit -m "Tabla y tupla creada"
+git push
+git push --set-upstream origin master
+git status
+git push head master
+git push head
+git push master
+psql
