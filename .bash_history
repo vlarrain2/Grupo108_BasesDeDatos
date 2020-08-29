@@ -33,3 +33,45 @@ git push head master
 git push head
 git push master
 psql
+git pull -u origin master
+git pull origin master
+git pull origin
+git pull origin master
+git status
+git add .
+make uler.py
+touch uler.txt
+dir
+git status
+git add .
+git commit -m "uler"
+git push
+git push origin master
+git status
+git pull
+git pull origin/master
+git fetch
+git fetch origin master
+git fetch origin
+git pull
+git pull origin master FETCH_HEAD
+git branch -vv
+git branch master
+git branch uler
+git branch -vv
+git pull origin master 361e2ac
+git pull origin 361e2ac
+git pull
+git push
+git push origin master
+git push --help
+cd ..
+dir
+cd ..
+dir
+git fetch --all
+git merge
+git merge --all
+git merge origin master
+git pull origin master
+git pull origin master --allow-unrelated-histories
