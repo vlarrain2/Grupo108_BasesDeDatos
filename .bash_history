@@ -52,3 +52,11 @@ git status
 git pull
 ir
 dir
+psql
+uler123
+psql
+git status
+git add .
+git commit -m "Listo"
+git push
+git push
