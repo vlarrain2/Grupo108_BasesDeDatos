@@ -8,9 +8,6 @@
 
 	$nombre = $_POST["nombre_naviera"];
 
-  SELECT buques.bid,nombre,patente,nro_personas,pais,capitan from buques,tiene WHERE tiene.nombre_naviera LIK
-  E 'Francis%' AND buques.bid = tiene.bid;
-
 
  	$query = "SELECT buques.bid,nombre,patente,nro_personas,pais,capitan FROM buques,tiene WHERE nombre LIKE '%$nombre%' AND buques.bid = tiene.bid;";
 	$result = $db -> prepare($query);
