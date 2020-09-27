@@ -17,8 +17,8 @@
       <th>Nombre</th>
     </tr>
   <?php
-	foreach ($navieras as $navieras) {
-  		echo "<tr> <td>$pokemon[0]</td></tr>";
+	foreach ($navieras as $naviera) {
+  		echo "<tr> <td>$naviera[0]</td></tr>";
 	}
   ?>
 	</table>
