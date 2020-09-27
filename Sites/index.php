@@ -5,11 +5,20 @@
 
   <br>
 
+  <h3 align="center"> Buscar los nombres de todas las Navieras</h3>
+
+  <form align="center" action="consultas/consulta_todas_navieras.php" method="post">
+    <br/>
+    <br/>
+    <input type="submit" value="Buscar">
+  </form>
+
+
   <h3 align="center"> Buscar buque por el nombre de la naviera </h3>
 
   <form align="center" action="consultas/consulta_tipo_nombre.php" method="post">
     Nombre de la Naviera:
-    <input type="text" name="nombre">
+    <input type="text" name="nombre_naviera">
     <br/>
     <br/>
     <input type="submit" value="Buscar">

@@ -1,5 +1,5 @@
 <?php
-  $user = 'grupoXX';
-  $password = 'grupoXX';
-  $databaseName = 'grupoXXe2';
+  $user = 'grupo108';
+  $password = 'uler123';
+  $databaseName = 'grupo108e2';
 ?>

@@ -6,23 +6,19 @@
   #Llama a conexión, crea el objeto PDO y obtiene la variable $db
   require("../config/conexion.php");
 
-	$nombre = $_POST["nombre_naviera"];
-
- 	$query = "SELECT * FROM naviera WHERE tipo LIKE '%$tipo%' AND nombre LIKE '%$nombre%';";
+ 	$query = "SELECT nombre FROM navieras ;";
 	$result = $db -> prepare($query);
 	$result -> execute();
-	$pokemones = $result -> fetchAll();
+	$navieras = $result -> fetchAll();
   ?>
 
 	<table>
     <tr>
-      <th>ID</th>
       <th>Nombre</th>
-      <th>Tipo</th>
     </tr>
   <?php
-	foreach ($pokemones as $pokemon) {
-  		echo "<tr> <td>$pokemon[0]</td> <td>$pokemon[1]</td> <td>$pokemon[2]</td> </tr>";
+	foreach ($navieras as $navieras) {
+  		echo "<tr> <td>$pokemon[0]</td></tr>";
 	}
   ?>
 	</table>
