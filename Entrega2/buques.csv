@@ -1,0 +1,251 @@
+,id_buque,nombre,patente,pais,id_capitan
+0,0,Abbotsham,ZX2922,India,1070
+1,1,Abdiel,PM8536,Canada,1186
+2,2,Abeille,VC7492,Singapur,1483
+3,3,Abelardo,LS5992,Costa Rica,1629
+4,4,Abelia,PJ5481,Argentina,1235
+5,5,Abercrombie,LX6914,Qatar,1472
+6,6,Aberdeen,EH9187,Qatar,30
+7,7,Aberford,ST8633,Mexico,1557
+8,8,Aberfoyle,EY2745,Japon,465
+9,9,abergavenny,LA5643,Siria,316
+10,10,Abigail,AU5998,Irlanda,807
+11,11,Abingdon,ET5609,Nicaragua,1315
+12,12,abondance,MO4425,Filipinas,185
+13,13,aboukir,BY5212,Colombia,675
+14,14,Abrahan,EG8528,Brasil,318
+15,15,Abrams Oferta,QD4440,Estados Unidos,1167
+16,16,Abundancia,VX5561,Estados Unidos,636
+17,17,Abisinia,VT6220,Mexico,488
+18,18,Acacia,XK7318,Argentina,700
+19,19,Acanto,WW2485,Portugal,380
+20,20,acasta,HV2199,Mexico,1486
+21,21,As,ID7819,Panama,1528
+22,22,Acertif,QA2495,Nueva Zelanda,260
+23,23,achates,WF7217,Islas Malvinas,441
+24,24,acheron,BN4195,Costa Rica,64
+25,25,Achille,UW2735,Austria,1521
+26,26,Aquiles,EF7582,Belgica,491
+27,27,Aconito,OT5458,Mexico,1622
+28,28,Bellota,YN4644,Islas Malvinas,186
+29,29,Acteon,FS3778,Indonesia,1105
+30,30,acteon,VW7522,Australia,1093
+31,31,Calypso,VI4743,Canada,1291
+32,32,Activo,OJ8771,España,958
+33,33,Actividad,OC4762,Finlandia,1639
+34,34,Agudo,XN4914,Peru,978
+35,35,Adan y Eva,XP9141,Jamaica,1612
+36,36,Firme,EX4705,Japon,1526
+37,37,inflexible II,BJ4245,Tailandia,706
+38,38,Agrega un,RH8308,Dinamarca,497
+39,39,Sumador,YP3858,Nicaragua,1479
+40,40,Adelaide,AL8743,Filipinas,824
+41,41,Adepto,KM2551,Republica Dominicana,1568
+42,42,Admirable,EI5702,Italia,701
+43,43,Almirante Devries,RJ2733,Estados Unidos,408
+44,44,Almirante Farragut,YG2900,Sudafrica,379
+45,45,Almirantazgo,TO8113,Austria,1379
+46,46,Adonis,HE7029,India,1499
+47,47,Habil,HB3228,Singapur,374
+48,48,Adur,OF5956,Egipto,365
+49,49,Avanzar,SG9128,Japon,762
+50,50,Ventaja,GO7311,Australia,340
+51,51,Advantagia,PM7495,Peru,247
+52,52,Aventuras,GS7205,España,1279
+53,53,aventura Galera,PU5101,Peru,577
+54,54,Premio aventura,VP2429,Australia,1020
+55,55,Adversario,MO4968,España,223
+56,56,Consejo,BI5654,Peru,750
+57,57,Premio consejos,YB8271,Siria,934
+58,58,Asesor,VT2032,Austria,1494
+59,59,Eneas,MU6547,Sudafrica,142
+60,60,Eolo,IW2489,Australia,1294
+61,61,Aetna,IG9597,Indonesia,1477
+62,62,Affleck,AU6167,Argentina,397
+63,63,Refriega,JD8184,Mexico,593
+64,64,Africa,RK2324,Republica Dominicana,1190
+65,65,Africaine,LN6036,Republica Dominicana,615
+66,66,Afridi,PZ3477,Nicaragua,274
+67,67,Afrikander,GM1638,Islas Malvinas,177
+68,68,Agamenon,CI3218,Siria,1058
+69,69,Aladdin,UH6836,Portugal,893
+70,70,Alamein,QJ6353,Peru,1365
+71,71,Alarico,LW4637,Brasil,554
+72,72,Alarma,SL2391,Sudafrica,1465
+73,73,Alaunia II,PP3724,Portugal,91
+74,74,albacora,QL4591,Siria,1632
+75,75,Alban,BF7024,Finlandia,112
+76,76,Albanaise,QI7769,Japon,117
+77,77,Albany,FM3163,Finlandia,1310
+78,78,Albatros,NX3376,Egipto,1573
+79,79,Albemarle,XG7925,Filipinas,764
+80,80,alberni,KY2131,Paraguay,987
+81,81,Albert,MW6341,Tailandia,900
+82,82,Alberta,FU8868,Panama,1054
+83,83,Albian,UH1378,Sudafrica,901
+84,84,Albrighton,GT9752,España,643
+85,85,Albuera,OB9598,Vietnam,1456
+86,86,albury,VR7517,Islas Malvinas,864
+87,87,Alcantara,GF5994,España,1144
+88,88,Alcaston,HF1544,Jamaica,280
+89,89,blackwall,AI2283,Reino Unido,964
+90,90,Agua Negra,KC2936,Noruega,496
+91,91,Madera negra,MN1612,Italia,1431
+92,92,Espada,OR9516,Singapur,168
+93,93,BLAIRMORE,OE1789,Argentina,1354
+94,94,Blake,WD8846,Noruega,1064
+95,95,Blakeney,MZ9845,Italia,1411
+96,96,Blanche,RV9799,Dinamarca,722
+97,97,Blandford,IV2746,Argentina,982
+98,98,Blankney,TJ7818,Portugal,756
+99,99,Blaxton,OF1501,Noruega,1399
+100,100,Resplandor,BY4314,Suiza,878
+101,101,Chaqueta de sport,AM9504,Paraguay,193
+102,102,Blean,ZV9679,Australia,1467
+103,103,Bleasdale,SV9482,Panama,1398
+104,104,blencathra,UL8619,India,194
+105,105,Blenheim,LF8633,Suiza,927
+106,106,Bendicion,PR9667,Noruega,537
+107,107,Blickling,MZ2239,Egipto,403
+108,108,Bligh,WI9449,Suiza,1174
+109,109,Rubia,XG4556,Nicaragua,988
+110,110,Sabueso,HW2014,Colombia,708
+111,111,Floracion,BZ3311,Noruega,449
+112,112,Flor,BB5259,Brasil,1457
+113,113,Campanilla,WC8293,Australia,1533
+114,114,pechiazul,RY9242,Canada,627
+115,115,Blyth,OM4230,Paraguay,1519
+116,116,Boadicea,AL1557,Dinamarca,1480
+117,117,bodenham,II3534,Noruega,23
+118,118,Castillo bodiam,CG7403,Japon,31
+119,119,Bogam,WX5990,Argentina,162
+120,120,Negrita,HE5247,Polonia,1314
+121,121,Bolebroke,HH5023,Republica Dominicana,1239
+122,122,Bolton Castle,FI2331,Austria,1448
+123,123,Bolton,YB3879,Austria,10
+124,124,Bombardear,OY7209,Reino Unido,665
+125,125,Castillo de Bombay,NK1201,Ecuador,1236
+126,126,Bombay,MN4984,Japon,1285
+127,127,Bumerang,PA1651,Islas Malvinas,147
+128,128,Buenaventura,PJ8392,Republica Dominicana,560
+129,129,Bonavoila,UE6214,Ecuador,19
+130,130,Bonetta,IJ4552,Mexico,1077
+131,131,Bonita,EF2295,Canada,1178
+132,132,Bonito,RA3983,Finlandia,1432
+133,133,Bonne Ciudadana,YC1851,Austria,787
+134,134,Bootle,XL6992,Costa Rica,948
+135,135,Borraja,RC8468,Estados Unidos,122
+136,136,Frontera,XH5466,Australia,1149
+137,137,Boreas,VH2584,Ecuador,1257
+138,138,Boreham,CV4539,Islas Malvinas,858
+139,139,Taladrador,VB9537,Canada,353
+140,140,Boscawen,OF5460,Chile,1385
+141,141,Bossington,EB3227,Peru,1042
+142,142,Boston,IH6707,Nicaragua,1536
+143,143,Botha,DA9671,Suiza,547
+144,144,Bottisham,NL7862,Nueva Zelanda,991
+145,145,Bouclier,UJ2611,Islas Malvinas,1597
+146,146,Boulogne,PV7666,Austria,969
+147,147,Boulston,HH5472,Republica Dominicana,1577
+148,148,Bravucon,KQ3854,Nicaragua,67
+149,149,Abundante,ON7101,Argentina,1056
+150,150,Generosidad,QC1164,España,1272
+151,151,bourbonnaise,TW7915,Tailandia,293
+152,152,Bourdelais,EI5834,Polonia,898
+153,153,Bowen,AI9121,Jamaica,422
+154,154,Castillo de Bowes,YE6286,Argentina,1013
+155,155,bowmanville,PJ3020,Japon,398
+156,156,Boxer,IX1197,Italia,47
+157,157,Boyne,YB1434,Belgica,536
+158,158,Braak,LD3618,Republica Dominicana,1217
+159,159,Braave,IF9396,Portugal,440
+160,160,Bradfield,AY3986,Islas Malvinas,1569
+161,161,Bradford,FJ6533,Sudafrica,879
+162,162,Trenza,SU8617,Belgica,529
+163,163,Braithwaite,LW6201,Japon,801
+164,164,Brakel,VG7905,Tailandia,1617
+165,165,Castillo bramber,SM2508,Colombia,330
+166,166,Zarza,MY3367,Portugal,997
+167,167,Bramham,GS9404,Filipinas,1209
+168,168,Brampton,HE8199,Jamaica,646
+169,169,Brandon,FA3127,Chile,390
+170,170,Branlebas,DQ3759,India,1125
+171,171,brantford,RP8314,Ecuador,758
+172,172,Brantingham,MJ4934,Ecuador,1443
+173,173,Valiente,YX2002,Islas Malvinas,283
+174,174,Bravo,EV7485,Qatar,890
+175,175,Brayford,HI7513,Suiza,1092
+176,176,Descarado,RO9221,Cuba,604
+177,177,Brema,TR8211,Australia,860
+178,178,brearley,FO3430,India,557
+179,179,Brecon,LR2069,Panama,1326
+180,180,Breconshire,GJ5946,Noruega,1546
+181,181,Breda,HB4367,Egipto,7
+182,182,brenchley,VY5330,Australia,571
+183,183,Brereton,WF3051,Singapur,133
+184,184,Brevdrageren,HI3831,Belgica,514
+185,185,Brezo,UO8744,Paraguay,1250
+186,186,Bridgewater,DV6261,Belgica,206
+187,187,Castillo bridgnorth,TS8958,Indonesia,1466
+188,188,Bridlington,LN8777,Tailandia,715
+189,189,Bridport,HK6767,Sudafrica,143
+190,190,Brigadier,HE2921,Dinamarca,451
+191,191,brigandine,BN3951,Italia,1516
+192,192,Bergantin,TG8958,España,848
+193,193,Brigham,RK9162,Argentina,1224
+194,194,Brighton,NQ5495,Panama,1313
+195,195,Brillante,HF4402,Austria,161
+196,196,Premio brillante,IT1233,Filipinas,473
+197,197,Brinkley,FN4513,Qatar,1593
+198,198,Brinton,OA5815,Islas Malvinas,1488
+199,199,briseis,WC2925,Costa Rica,1059
+200,200,Energico,CC4639,Polonia,1378
+201,201,Brissenden,UZ5981,Cuba,585
+202,202,Bristol,DK4889,Portugal,896
+203,203,Britania,DT6703,Finlandia,221
+204,204,britomart,JR2308,Tailandia,1493
+205,205,britanico,YW8268,Cuba,723
+206,206,Brixham,WK4832,Brasil,87
+207,207,Broaderschap,NN8091,Jamaica,1413
+208,208,Broadley,AV9914,Costa Rica,184
+209,209,Sable,DC7834,Qatar,8
+210,210,broadwater,GS9663,Polonia,1559
+211,211,Broadway,OH1392,Jamaica,634
+212,212,Brock,NP8695,Filipinas,1339
+213,213,Brocklesby,PV6712,Paraguay,317
+214,214,brockville,ZV8179,Indonesia,885
+215,215,Rompi,OV3558,Islas Malvinas,210
+216,216,brolga,KI7112,India,1614
+217,217,Bronington,LV7419,Qatar,388
+218,218,Penelope,DS0478,Chile,679
+219,219,Premio Dover,KH8053,Belgica,1446
+220,220,Dovey,XB6912,Argentina,748
+221,221,downham,CE1914,Corea,1596
+222,222,Downley,RW4421,Suiza,1026
+223,223,Continuar,UY2987,Islas Malvinas,1007
+224,224,Premio dragon,EE2109,Nueva Zelanda,272
+225,225,Libelula,RQ2918,Dinamarca,1123
+226,226,Pato,ZC6249,Brasil,400
+227,227,Terrible,SQ8557,Vietnam,319
+228,228,Acorazado,GC3280,Islas Malvinas,460
+229,229,Premio Dreadnought,NT2280,Colombia,1360
+230,230,Conductor,PZ1913,Nueva Zelanda,1251
+231,231,Drochterland,NN2774,Tailandia,456
+232,232,Drogheda,PB7290,Reino Unido,835
+233,233,Dromedario,GE9618,Colombia,641
+234,234,Dromio,PK9613,Paraguay,1228
+235,235,Droxford,CB1716,Tailandia,897
+236,236,Esclava,VI7863,Chile,297
+237,237,druida,OO2266,Qatar,1382
+238,238,drumheller,VI9753,Nicaragua,90
+239,239,drummondville,FE1567,Panama,56
+240,240,Drury,DG5218,Filipinas,814
+241,241,Driada,LI5894,Singapur,1504
+242,242,dubbo,QJ1463,Tailandia,522
+243,243,Dubford,DY6365,Irlanda,594
+244,244,Gulnare,OI4579,Egipto,1359
+245,245,Gurkha,TQ5114,Finlandia,279
+246,246,guysborough,ED5736,Chile,698
+247,247,gympie,HP3120,Panama,511
+248,248,gitano,YT2845,Mexico,1404
+249,249,magnolia,ZP4420,Chile,736
