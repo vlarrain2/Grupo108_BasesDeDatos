@@ -8,8 +8,6 @@
   <h3 align="center"> Buscar los nombres de todas las Navieras</h3>
 
   <form align="center" action="consultas/consulta_todas_navieras.php" method="post">
-    <br/>
-    <br/>
     <input type="submit" value="Buscar">
   </form>
 

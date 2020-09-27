@@ -8,21 +8,28 @@
 
 	$nombre = $_POST["nombre_naviera"];
 
- 	$query = "SELECT * FROM naviera WHERE tipo LIKE '%$tipo%' AND nombre LIKE '%$nombre%';";
+  SELECT buques.bid,nombre,patente,nro_personas,pais,capitan from buques,tiene WHERE tiene.nombre_naviera LIK
+  E 'Francis%' AND buques.bid = tiene.bid;
+
+
+ 	$query = "SELECT buques.bid,nombre,patente,nro_personas,pais,capitan FROM buques,tiene WHERE nombre LIKE '%$nombre%' AND buques.bid = tiene.bid;";
 	$result = $db -> prepare($query);
 	$result -> execute();
-	$pokemones = $result -> fetchAll();
+	$buques = $result -> fetchAll();
   ?>
 
 	<table>
     <tr>
       <th>ID</th>
       <th>Nombre</th>
-      <th>Tipo</th>
+      <th>Patente</th>
+      <th>Nro_Personas</th>
+      <th>Pais</th>
+      <th>ID_Capitan</th>
     </tr>
   <?php
-	foreach ($pokemones as $pokemon) {
-  		echo "<tr> <td>$pokemon[0]</td> <td>$pokemon[1]</td> <td>$pokemon[2]</td> </tr>";
+	foreach ($buques as $buque) {
+  		echo "<tr> <td>$buque[0]</td> <td>$buque[1]</td> <td>$buque[2]</td><td>$buque[3]</td><td>$buque[4]</td><td>$buque[5]</td> </tr>";
 	}
   ?>
 	</table>
