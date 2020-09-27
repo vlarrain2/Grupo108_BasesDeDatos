@@ -1,20 +1,17 @@
 <?php include('templates/header.html');   ?>
 
 <body>
-  <h1 align="center">Biblioteca Pokemón </h1>
-  <p style="text-align:center;">Aquí podrás encontrar información sobre pokemones.</p>
+  <h1 align="center">Informacion Navieras y buques </h1>
 
   <br>
 
-  <h3 align="center"> ¿Quieres buscar un Pokemón por tipo y/o nombre?</h3>
+  <h3 align="center"> Buscar buque por el nombre de la naviera </h3>
 
   <form align="center" action="consultas/consulta_tipo_nombre.php" method="post">
-    Tipo:
-    <input type="text" name="tipo_elegido">
+    Nombre de la Naviera:
+    <input type="text" name="nombre">
     <br/>
-    Nombre:
-    <input type="text" name="nombre_pokemon">
-    <br/><br/>
+    <br/>
     <input type="submit" value="Buscar">
   </form>
   
