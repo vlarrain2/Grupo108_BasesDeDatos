@@ -28,11 +28,26 @@
   <br>
   <br>
 
-  <h3 align="center"> ¿Quieres buscar un Pokemón por su ID?</h3>
+  <h3 align="center">Buscar por puerto y año de atraque</h3>
 
-  <form align="center" action="consultas/consulta_stats.php" method="post">
-    Id:
-    <input type="text" name="id_elegido">
+  <form align="center" action="consultas/consulta_puerto_año.php" method="post">
+    Puerto:
+    <input type="text" name="puerto">
+    <br/>
+    Año:
+    <input type="text" name="año">
+    <br/><br/>
+    <input type="submit" value="Buscar">
+  </form>
+
+  <h3 align="center"> Buscar por puerto atracado al mismo tiempo </h3>
+
+  <form align="center" action="consultas/consulta_al_mismo_tiempo.php" method="post">
+  Buscar todos los buques que hayan estado en:
+    <input type="text" name="puerto">
+    <br/>
+    al mismo tiempo que :
+    <input type="text" name="otro_buque">
     <br/><br/>
     <input type="submit" value="Buscar">
   </form>
@@ -41,17 +56,27 @@
   <br>
   <br>
 
-  <h3 align="center"> ¿Quieres conocer los Pokemones más altos que: ?</h3>
+  <h3 align="center"> Encontrar capitanes por genero y Puerto:</h3>
 
-  <form align="center" action="consultas/consulta_altura.php" method="post">
-    Altura Mínima:
-    <input type="text" name="altura">
+  <form align="center" action="consultas/consulta_genero_puerto.php" method="post">
+    Encontrar todo(a)s lo(a)s capitanes de genero:
+    <input type="text" name="genero">
+    <br/>
+    Que hayan pasado por:
+    <input type="text" name="puerto">
     <br/><br/>
     <input type="submit" value="Buscar">
   </form>
   <br>
   <br>
   <br>
+  <h3 align="center"> Buscar buque pesquero con mayor numero de personas trabajando </h3>
+
+<form align="center" action="consultas/consulta_pesquero.php" method="post">
+  <br/>
+  <br/>
+  <input type="submit" value="Buscar">
+</form>
 
   <h3 align="center">¿Quieres buscar todos los pokemones por tipo?</h3>
 
