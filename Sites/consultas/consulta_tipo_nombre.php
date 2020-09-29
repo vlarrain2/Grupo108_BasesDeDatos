@@ -9,7 +9,7 @@
 	$nombre = $_POST["nombre_naviera"];
 
 
- 	$query = "SELECT buques.bid,nombre,patente,pais,capitan from buques,tiene WHERE LOWER(tiene.nombre_naviera) LIKE LOWER('%$nombre%') AND buques.bid = tiene.bid;";
+ 	$query = "SELECT buques.bid,nombre,patente,pais,capitan,navieras.nombre from buques,tiene WHERE LOWER(tiene.nombre_naviera) LIKE LOWER('%$nombre%') AND buques.bid = tiene.bid;";
 	$result = $db -> prepare($query);
 	$result -> execute();
 	$buques = $result -> fetchAll();
@@ -22,10 +22,12 @@
       <th>Patente</th>
       <th>Pais</th>
       <th>ID_Capitan</th>
+      <th>Naviera</th>
+
     </tr>
   <?php
 	foreach ($buques as $buque) {
-  		echo "<tr> <td>$buque[0]</td> <td>$buque[1]</td> <td>$buque[2]</td><td>$buque[3]</td><td>$buque[4]</td> </tr>";
+  		echo "<tr> <td>$buque[0]</td> <td>$buque[1]</td> <td>$buque[2]</td><td>$buque[3]</td><td>$buque[4]</td><td>$buque[5]</td> </tr>";
 	}
   ?>
 	</table>
