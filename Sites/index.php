@@ -57,7 +57,7 @@
   <h3 align="center"> Encontrar capitanes por genero y Puerto:</h3>
 
   <form align="center" action="consultas/consulta_genero_puerto.php" method="post">
-    Encontrar todo(a)s lo(a)s capitanes de genero:
+    Encontrar todo(a)s lo(a)s capitanes de genero (hombre/mujer):
     <input type="text" name="genero">
     <br/>
     Que hayan pasado por:

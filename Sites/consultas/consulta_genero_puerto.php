@@ -6,29 +6,31 @@
   require("../config/conexion.php");
 
   #Se obtiene el valor del input del usuario
-  $altura = $_POST["altura"];
-  $altura = intval($altura);
+  $genero = $_POST["genero"];
+  $puerto = $_POST["puerto"];
 
   #Se construye la consulta como un string
- 	$query = "SELECT pid, nombre, altura FROM pokemones where altura>=$altura order by altura desc;";
+ 	$query = "SELECT personal.pid,nombre,edad,genero,nacionalidad,pasaporte FROM personal,buques,atraques WHERE personal.pid = buques.capitan AND atraques.bid = buques.bid AND LOWER(personal.genero) LIKE LOWER('%$genero%') AND LOWER (atraques.puerto) LIKE LOWER ('%$puerto%');";
 
   #Se prepara y ejecuta la consulta. Se obtienen TODOS los resultados
 	$result = $db -> prepare($query);
 	$result -> execute();
-	$pokemones = $result -> fetchAll();
+	$personal = $result -> fetchAll();
   ?>
 
   <table>
     <tr>
       <th>ID</th>
       <th>Nombre</th>
-      <th>Altura</th>
+      <th>Edad</th>
+      <th>Genero</th>
+      <th>Nacionalidad</th>
+      <th>Pasaporte</th>
     </tr>
   
       <?php
-        // echo $pokemones;
-        foreach ($pokemones as $p) {
-          echo "<tr><td>$p[0]</td><td>$p[1]</td><td>$p[2]</td></tr>";
+        foreach ($personal as $p) {
+          echo "<tr><td>$p[0]</td><td>$p[1]</td><td>$p[2]</td><td>$p[3]</td><td>$p[4]</td><td>$p[5]</td></tr>";
       }
       ?>
       
