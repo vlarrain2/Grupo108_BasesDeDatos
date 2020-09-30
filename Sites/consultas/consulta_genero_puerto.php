@@ -10,7 +10,7 @@
   $puerto = $_POST["puerto"];
 
   #Se construye la consulta como un string
- 	$query = "SELECT DISTINCT personal.pid,personal.nombre,edad,genero,nacionalidad,nro_pasaporte FROM personal,buques,atraques,tiene_personal WHERE = tiene_personal.pid AND buques.bid = tiene_personal.bid AND atraques.bid = buques.bid AND buques.capitan = tiene_personal.pid AND LOWER (personal.genero) LIKE LOWER ('%$genero%') AND LOWER (atraques.puerto) LIKE LOWER ('%$puerto%');";
+ 	$query = "SELECT DISTINCT personal.pid,personal.nombre,edad,genero,nacionalidad,nro_pasaporte FROM personal,buques,atraques,tiene_personal WHERE personal.pid= tiene_personal.pid AND buques.bid = tiene_personal.bid AND atraques.bid = buques.bid AND buques.capitan = tiene_personal.pid AND LOWER (personal.genero) LIKE LOWER ('%mujer%') AND LOWER (atraques.puerto) LIKE LOWER ('%valparaiso%');";
 
   #Se prepara y ejecuta la consulta. Se obtienen TODOS los resultados
 	$result = $db -> prepare($query);
