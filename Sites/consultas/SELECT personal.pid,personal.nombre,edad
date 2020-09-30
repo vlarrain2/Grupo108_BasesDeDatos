@@ -1,0 +1,2 @@
+SELECT personal.pid,personal.nombre,edad,genero,nacionalidad,nro_pasaporte FROM personal,buques,atraques,tiene_personal WHERE personal.pid = tiene_personal.pid AND tiene_personal.bid = buques.bid AND buques.capitan = tiene_personal.pid
+AND atraques.bid = buques.bid AND LOWER(personal.genero) LIKE LOWER('%$mujer%') AND LOWER (atraques.puerto) LIKE LOWER ('%$talcahuano%');
