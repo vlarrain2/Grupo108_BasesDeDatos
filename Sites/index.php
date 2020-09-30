@@ -67,7 +67,7 @@
   </form>
   <br>
   <h3 align="center"> Buscar buque pesquero con mayor numero de personas trabajando </h3>
-<form align="center" action="consultas/consulta_pesquero.php" method="post">
+<form align="center" action="consultas/consulta_maximo_pesquero.php" method="post">
   <input type="submit" value="Buscar">
 </form>
 
