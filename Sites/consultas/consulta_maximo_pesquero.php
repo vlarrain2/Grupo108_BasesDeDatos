@@ -11,16 +11,22 @@
 	 s.capitan, buquespesca.tipo_pesca ORDER BY COUNT(bid) DESC LIMIT 1;";
 	$result = $db -> prepare($query);
 	$result -> execute();
-	$navieras = $result -> fetchAll();
+	$buques = $result -> fetchAll();
   ?>
 
 	<table>
     <tr>
-      <th>Nombre</th>
+      <th>ID</th>
+	  <th>Patente</th>
+	  <th>Nombre</th>
+	  <th>Pais</th>
+	  <th>Capitan</th>
+	  <th>TipoPesca</th>
+	  <th>Nro_personas</th>
     </tr>
   <?php
-	foreach ($navieras as $naviera) {
-  		echo "<tr> <td>$naviera[0]</td></tr>";
+	foreach ($buques as $buque) {
+  		echo "<tr> <td>$buque[0]</td><td>$buque[1]</td><td>$buque[2]</td><td>$buque[3]</td><td>$buque[4]</td><td>$buque[5]</td><td>$buque[6]</td></tr>";
 	}
   ?>
 	</table>
